@@ -15,15 +15,16 @@ The goal of this project was to predict clinical or cognitive outcomes using **m
 ---
 
 ## 🧩 Project Structure
-WIDS_Final.ipynb # Main notebook containing the full ML pipeline
-├── Data Loading # Reads Excel and CSV files from Google Drive
-├── Data Merging # Combines quantitative, categorical, and imaging data
-├── Preprocessing # Handles missing values, encoding, and scaling
-├── PCA Dimensionality Reduction
-├── Model Training (XGBoost)
-├── Cross Validation (Repeated Stratified K-Fold)
-├── Evaluation (F1, Brier Score)
-└── Submission Generation
+
+- **WIDS_Final.ipynb** — Main notebook containing the complete machine learning pipeline  
+  - **Data Loading** – Reads Excel and CSV files from Google Drive  
+  - **Data Merging** – Combines quantitative, categorical, and imaging datasets  
+  - **Preprocessing** – Handles missing values, encoding, and feature scaling  
+  - **PCA Dimensionality Reduction** – Reduces feature dimensions while retaining 90% variance  
+  - **Model Training (XGBoost)** – Trains classifier using optimized hyperparameters  
+  - **Cross Validation (Repeated Stratified K-Fold)** – Ensures model generalization and stability  
+  - **Evaluation (F1 Score, Brier Score)** – Measures model accuracy and calibration  
+  - **Submission Generation** – Produces final prediction file in required format
 
 
 ---
