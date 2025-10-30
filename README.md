@@ -1,8 +1,22 @@
 # 🧠 WiDS Datathon 2025 – Multimodal Brain Imaging Prediction
 
-## 📌 Overview
-This repository contains the Python implementation for the **WiDS (Women in Data Science) Datathon 2025** challenge.  
-The goal of this project was to predict clinical or cognitive outcomes using **multimodal data**—including **quantitative features, categorical metadata, and brain functional connectome matrices**.
+## 🧠 Challenge Overview
+
+In this year’s **WiDS Datathon 2025**, participants were challenged to build a model that predicts both an individual’s **sex** and their **ADHD diagnosis** using **functional brain imaging data** of children and adolescents, along with **socio-demographic**, **emotional**, and **parenting** information.
+
+---
+
+### 💡 Challenge Question and Task
+> **“What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?”**
+
+The objective is to create a **multi-outcome machine learning model** that predicts two separate target variables:
+
+1. **ADHD** → `1 = Yes`, `0 = No`  
+2. **Female** → `1 = Yes`, `0 = No`
+
+---
+
+This challenge encourages exploration of how **brain connectivity patterns** and **social-emotional factors** interact to influence **ADHD diagnosis** across genders.
 
 ---
 
